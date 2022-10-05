@@ -11,7 +11,9 @@ import SwiftUI
 struct AdvancedNavigationWithTabViewApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView { // Create NavigationView for all app
+                ContentView()
+            }
         }
     }
 }

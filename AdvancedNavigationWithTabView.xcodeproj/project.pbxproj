@@ -11,6 +11,10 @@
 		0DB075A328EDEEB600F11637 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB075A228EDEEB600F11637 /* ContentView.swift */; };
 		0DB075A528EDEEB800F11637 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DB075A428EDEEB800F11637 /* Assets.xcassets */; };
 		0DB075A828EDEEB800F11637 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DB075A728EDEEB800F11637 /* Preview Assets.xcassets */; };
+		0DB075B328EDF0A300F11637 /* OutsideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB075B228EDF0A300F11637 /* OutsideView.swift */; };
+		0DB075B528EDF0BD00F11637 /* InsideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB075B428EDF0BD00F11637 /* InsideView.swift */; };
+		0DB075B728EDF39A00F11637 /* TabScreen1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB075B628EDF39A00F11637 /* TabScreen1.swift */; };
+		0DB075B928EDF3A100F11637 /* TabScreen2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB075B828EDF3A100F11637 /* TabScreen2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,12 @@
 		0DB075A228EDEEB600F11637 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0DB075A428EDEEB800F11637 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DB075A728EDEEB800F11637 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0DB075B228EDF0A300F11637 /* OutsideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutsideView.swift; sourceTree = "<group>"; };
+		0DB075B428EDF0BD00F11637 /* InsideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsideView.swift; sourceTree = "<group>"; };
+		0DB075B628EDF39A00F11637 /* TabScreen1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabScreen1.swift; sourceTree = "<group>"; };
+		0DB075B828EDF3A100F11637 /* TabScreen2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabScreen2.swift; sourceTree = "<group>"; };
+		0DB075BA28EDF70300F11637 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0DB075BC28EDFA1300F11637 /* Simulator Screen Recording - iPhone 13 Pro - 2022-10-05 at 20.43.32.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Simulator Screen Recording - iPhone 13 Pro - 2022-10-05 at 20.43.32.mp4"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +45,7 @@
 		0DB0759428EDEEB600F11637 = {
 			isa = PBXGroup;
 			children = (
+				0DB075BA28EDF70300F11637 /* README.md */,
 				0DB0759F28EDEEB600F11637 /* AdvancedNavigationWithTabView */,
 				0DB0759E28EDEEB600F11637 /* Products */,
 			);
@@ -51,6 +62,8 @@
 		0DB0759F28EDEEB600F11637 /* AdvancedNavigationWithTabView */ = {
 			isa = PBXGroup;
 			children = (
+				0DB075BB28EDF9FD00F11637 /* Videos */,
+				0DB075AE28EDF07D00F11637 /* Core */,
 				0DB075A028EDEEB600F11637 /* AdvancedNavigationWithTabViewApp.swift */,
 				0DB075A228EDEEB600F11637 /* ContentView.swift */,
 				0DB075A428EDEEB800F11637 /* Assets.xcassets */,
@@ -65,6 +78,33 @@
 				0DB075A728EDEEB800F11637 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0DB075AE28EDF07D00F11637 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				0DB075AF28EDF08100F11637 /* Screens */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		0DB075AF28EDF08100F11637 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				0DB075B228EDF0A300F11637 /* OutsideView.swift */,
+				0DB075B428EDF0BD00F11637 /* InsideView.swift */,
+				0DB075B628EDF39A00F11637 /* TabScreen1.swift */,
+				0DB075B828EDF3A100F11637 /* TabScreen2.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		0DB075BB28EDF9FD00F11637 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				0DB075BC28EDFA1300F11637 /* Simulator Screen Recording - iPhone 13 Pro - 2022-10-05 at 20.43.32.mp4 */,
+			);
+			path = Videos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +177,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DB075B328EDF0A300F11637 /* OutsideView.swift in Sources */,
 				0DB075A328EDEEB600F11637 /* ContentView.swift in Sources */,
+				0DB075B928EDF3A100F11637 /* TabScreen2.swift in Sources */,
+				0DB075B728EDF39A00F11637 /* TabScreen1.swift in Sources */,
+				0DB075B528EDF0BD00F11637 /* InsideView.swift in Sources */,
 				0DB075A128EDEEB600F11637 /* AdvancedNavigationWithTabViewApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +319,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +349,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -9,13 +9,18 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        TabView {
+            TabScreen1()
+                .tabItem {
+                    Label("TabScreen1", systemImage: "map")
+                }
+            
+            TabScreen2()
+                .tabItem {
+                    Label("TabScreen2", systemImage: "map")
+                }
         }
-        .padding()
+        .navigationBarHidden(true)
     }
 }
 
